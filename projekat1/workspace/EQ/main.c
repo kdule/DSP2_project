@@ -33,9 +33,10 @@ Int16 sampleBufferL[AUDIO_IO_SIZE];
 #pragma DATA_ALIGN(sampleBufferR,4)
 Int16 sampleBufferR[AUDIO_IO_SIZE];
 
+float alpha[4] = { 0.917134199471548, 0.957709924852467, 0.571691813207928, -0.198912367379725};
+float beta[2] = {0.979222810621763, 0.416875796698897};
 
-Int32 alpha[4] = { 0.917134199471548, 0.957709924852467, 0.571691813207928, -0.198912367379725};
-Int32 beta[2] = {0.979222810621763, 0.416875796698897};
+static Int16 k[4] = {8192, 16364, 24576, 32737};
 
 
 //220 Hz 520 Hz 110 Hz 2905 Hz 1355 Hz 5 kHz
@@ -64,9 +65,9 @@ void main( void )
 	Int16 h_x_peek2[2] = {0, 0};
 	Int16 h_y_peek2[2] = {0, 0};
 
-/*
-	Int16 k = 8192;
-	float c_alpha = 0.3;
+
+	/*
+	float c_alpha = 0.7;
 	float c_beta = 0.0;
 	Int16 coefs[4];
 	Int16 coef[6];
@@ -74,8 +75,14 @@ void main( void )
 	Int16 bb = 0;
 	Int16 a[2] = {0,0};
 	Int16 b[2] = {0,0};
-*/
+	*/
+	int index = 0;
 	int i = 0;
+	Uint16 oldBtn = NoKey;
+	Uint16 btn_tmp = EZDSP5535_SAR_getKey();
+	Uint16 btn = NoKey;
+	clearLCD();
+
 
     /* Inicijalizaija razvojne ploce */
     EZDSP5535_init( );
@@ -105,44 +112,84 @@ void main( void )
 	calculatePeekCoeff(alpha[1], beta[0], sh1Coeffs);
 	calculatePeekCoeff(alpha[2], beta[1], sh2Coeffs);
 
-
-	//calculatePeekCoeff(c_alpha, c_beta, coef);
-	//calculateShelvingCoeff(c_alpha, coefs);
-
+/*
+	calculatePeekCoeff(c_alpha, c_beta, coef);
+	calculateShelvingCoeff(c_alpha, coefs);
+*/
 
     while(1)
     {
     	aic3204_read_block(sampleBufferL, sampleBufferR);
 
+    	/* BLOK ZA PROVERE LP, HP I PEEK */
+
 /*
     	for(i = 0; i < AUDIO_IO_SIZE; i++){
     		if(i != 0){
-    			sampleBufferR[i] = shelvingLP( 0, coefs, &aa, &bb, k);
+    			sampleBufferR[i] = shelvingPeek( 0, coef, a, b, k[2]);
     		}
     		else{
-    			sampleBufferR[i] = shelvingLP(32767, coefs, &aa, &bb, k);
+    			sampleBufferR[i] = shelvingPeek(32767, coef, a, b, k[2]);
     		}
     	}
+
 */
-    	/* Your code here */
+
+    	/* TASTERI ZA PROMEMU POJACANJA, ODNOSNO SLABLJENJA*/
+
+    	if(btn_tmp == oldBtn) {
+    		btn = NoKey;
+    	}
+    	else {
+    		oldBtn = btn;
+    		btn = btn_tmp;
+    	}
+
+    	switch (btn) {
+    			case SW1:
+    				index = (index + 1) % 4;
+    				setWritePointerToFirstChar();
+    				printChar(index + '0');
+    				printChar('-');
+    				printChar('0' + k[index] / 3277);
+    				break;
+
+    			case SW2:
+    				k[index] -= 3277;
+    				if (k[index] < 0) {
+    					k[index] = 32767;
+    				}
+    				setWritePointerToFirstChar();
+    				printChar(index + '0');
+    				printChar('-');
+    				printChar('0' + k[index] / 3277);
+    				break;
+    			}
+
+
+
+    	/* EKVALIZATOR*/
+
 
     	for(i = 0; i < AUDIO_IO_SIZE; i++) {
-    		sampleBufferL[i] = sampleBufferR[i];
+    		sampleBufferR[i] = shelvingLP(sampleBufferR[i], lpCoeffs, &h_x_lp, &h_y_lp, k[1]);
+    	}
+    	for(i = 0; i < AUDIO_IO_SIZE; i++) {
+    		sampleBufferR[i] = shelvingPeek(sampleBufferR[i], sh1Coeffs, h_x_peek1, h_y_peek1, k[1]);
+    	}
+    	for(i = 0; i < AUDIO_IO_SIZE; i++) {
+
+    		sampleBufferR[i] = shelvingHP(sampleBufferR[i], hpCoeffs, &h_x_hp, &h_y_hp, k[1]);
+    	}
+    	for(i = 0; i < AUDIO_IO_SIZE; i++) {
+
+
+    		sampleBufferR[i] = shelvingPeek(sampleBufferR[i], sh2Coeffs, h_x_peek2, h_y_peek2, k[1]);
 
     	}
 
-    	//Int16 input, Int16* coeff, Int16* x_history, Int16* y_history, Int16 k
-    	//shelvingPeek(Int16 input, Int16* coeff, Int16* x_history, Int16* y_history, Int16 k)
 
-    	for(i = 0; i < AUDIO_IO_SIZE; i++) {
-    		sampleBufferR[i] = shelvingLP(sampleBufferR[i], lpCoeffs, &h_x_lp, &h_y_lp, 16384);
-    		sampleBufferR[i] = shelvingPeek(sampleBufferR[i], sh1Coeffs, h_x_peek1, h_y_peek1, 16384);
-    		sampleBufferR[i] = shelvingHP(sampleBufferR[i], hpCoeffs, &h_x_hp, &h_y_hp, 16384);
-    		sampleBufferR[i] = shelvingPeek(sampleBufferR[i], sh2Coeffs, h_x_peek2, h_y_peek2, 32767);
-
-    	}
-
-		aic3204_write_block(sampleBufferR, sampleBufferR);
+		aic3204_write_block(sampleBufferL, sampleBufferR);
 	}
 
     	

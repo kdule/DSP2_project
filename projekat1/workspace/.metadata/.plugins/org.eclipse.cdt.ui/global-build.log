@@ -301,3 +301,745 @@ gmake: Nothing to be done for `all'.
 gmake: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 137: warning: expression has no effect
+"../main.c", line 137: warning: expression has no effect
+"../main.c", line 137: warning: expression has no effect
+"../main.c", line 137: warning: expression has no effect
+
+>> Compilation failure
+"../main.c", line 137: error: too few arguments in function call
+"../main.c", line 137: error: expected a ")"
+"../main.c", line 148: warning: statement is unreachable
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 148: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 149: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 159: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 152: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 40: error: expected a "}"
+"../main.c", line 122: error: expression must have pointer-to-object type
+
+"../main.c", line 125: error: expression must have pointer-to-object type
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+>> Compilation failure
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 40: error: expected a "}"
+"../main.c", line 155: warning: statement is unreachable
+
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+1 error detected in the compilation of "../main.c".
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 40: error: expected a "}"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+
+>> Compilation failure
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 77: warning: variable "a" was declared but never referenced
+"../main.c", line 78: warning: variable "b" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 125: warning: function declared implicitly
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 75: warning: variable "aa" was declared but never referenced
+"../main.c", line 76: warning: variable "bb" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ _shelving ./main.obj      
+
+error: unresolved symbols remain
+
+error: errors encountered during linking; "EQ.out" not built
+>> Compilation failure
+gmake: *** [EQ.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 75: warning: variable "aa" was declared but never referenced
+"../main.c", line 76: warning: variable "bb" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 155: warning: statement is unreachable
+"../main.c", line 54: warning: variable "lpCoeffs" was declared but never referenced
+"../main.c", line 55: warning: variable "hpCoeffs" was declared but never referenced
+"../main.c", line 56: warning: variable "sh1Coeffs" was declared but never referenced
+"../main.c", line 57: warning: variable "sh2Coeffs" was declared but never referenced
+"../main.c", line 59: warning: variable "h_x_lp" was declared but never referenced
+"../main.c", line 60: warning: variable "h_y_lp" was declared but never referenced
+"../main.c", line 61: warning: variable "h_x_hp" was declared but never referenced
+"../main.c", line 62: warning: variable "h_y_hp" was declared but never referenced
+"../main.c", line 64: warning: variable "h_x_peek1" was declared but never referenced
+"../main.c", line 65: warning: variable "h_y_peek1" was declared but never referenced
+"../main.c", line 66: warning: variable "h_x_peek2" was declared but never referenced
+"../main.c", line 67: warning: variable "h_y_peek2" was declared but never referenced
+"../main.c", line 75: warning: variable "aa" was declared but never referenced
+"../main.c", line 76: warning: variable "bb" was declared but never referenced
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 197: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 197: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 198: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 203: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project EQ ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C5500 Compiler'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --include_path="C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/inc" --include_path="D:/ra130/dsp2/projekat1/workspace/EQ/include" --define=c5535 --diag_warning=225 --ptrdiff_size=16 --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 203: warning: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building target: EQ.out'
+'Invoking: C5500 Linker'
+"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/bin/cl55" -v5515 --memory_model=large -g --define=c5535 --diag_warning=225 --ptrdiff_size=16 -z -m"EQ.map" --stack_size=0x200 --heap_size=0x400 -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/lib" -i"C:/ti/ccsv6/tools/compiler/c5500_4.4.1/include" -i"D:/ra130/dsp2/projekat1/workspace/EQ/c55xx_csl/lib" -i"D:/ra130/dsp2/projekat1/workspace/EQ/lib" --reread_libs --warn_sections --xml_link_info="vezba-ezdsp_linkInfo.xml" --rom_model --sys_stacksize=0x200 -o "EQ.out" "./aic3204.obj" "./aic3204_init.obj" "./ezdsp5535_aic3204_dma.obj" "./iir.obj" "./main.obj" "./print_number.obj" "./processing.obj" "../lnkx.cmd" "../lib/ezdsp5535bsl.lib" "../c55xx_csl/lib/cslVC5505.lib"  -l"rts55x.lib" -l"ezdsp5535bsl.lib" -l"cslVC5505.lib" -l"libc.a" 
+<Linking>
+'Finished building target: EQ.out'
+' '
+
+**** Build Finished ****
